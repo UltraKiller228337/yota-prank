@@ -1,0 +1,95 @@
+.yota__title.-y {
+	font-size: 200px;
+
+	animation: yota__title-change-color 1s infinite, yota__title-change-color-y 1s infinite;
+}
+
+.yota__title.-o {
+	font-size: 200px;
+
+	animation: yota__title-change-color 1s infinite, yota__title-change-color-o 1s infinite;
+}
+
+.yota__title.-t {
+	font-size: 200px;
+
+	animation: yota__title-change-color 1s infinite, yota__title-change-color-t 1s infinite;;
+}
+
+.yota__title.-a {
+	font-size: 200px;
+
+	animation: yota__title-change-color 1s infinite, yota__title-change-color-a 1s infinite;;
+}
+
+@keyframes yota__title-change-color {
+	0% {
+		color: white;
+	}
+
+	50% {
+		color: #00eaff;
+	}
+
+	100% {
+		color: white;
+	}
+}
+
+
+@keyframes yota__title-change-color-y {
+	0% {
+		color: white;
+	}
+
+	50% {
+		margin-bottom: 130px;
+		color: #00eaff;
+	}
+
+	100% {
+		color: white;
+	}
+}
+
+@keyframes yota__title-change-color-o {
+	0% {
+		margin-bottom: 130px;
+	}
+
+	50% {
+		margin-bottom: 0;
+	}
+
+	100% {
+		margin-bottom: 130px;
+	}
+}
+
+@keyframes yota__title-change-color-t {
+	0% {
+		margin-bottom: 0px;
+	}
+
+	50% {
+		margin-bottom: 130px;
+	}
+
+	100% {
+		margin-bottom: 0px;
+	}
+}
+
+@keyframes yota__title-change-color-a {
+	0% {
+		margin-bottom: 130px;
+	}
+
+	50% {
+		margin-bottom: 0;
+	}
+
+	100% {
+		margin-bottom: 130px;
+	}
+}

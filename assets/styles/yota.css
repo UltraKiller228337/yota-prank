@@ -1,0 +1,25 @@
+.yota {
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+
+	animation: yota-bgc-change 1s infinite;
+}
+
+@keyframes yota-bgc-change {
+	0% {
+		background-color: #00eaff;
+	}
+
+	50% {
+		background-color: white;
+	}
+
+	100% {
+		background-color: #00eaff;
+	}
+}
